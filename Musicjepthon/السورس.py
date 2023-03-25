@@ -48,16 +48,16 @@ async def ping(client, m: Message):
 )
 async def restart(client, m: Message):
     await m.delete()
-    jepthon = await m.reply("1")
-    await jepthon.edit("2")
-    await jepthon.edit("3")
-    await jepthon.edit("4")
-    await jepthon.edit("5")
-    await jepthon.edit("6")
-    await jepthon.edit("7")
-    await jepthon.edit("8")
-    await jepthon.edit("9")
-    await jepthon.edit("**تم اعادة تشغيل سورس ابن الدورة ميوزك بنجاح ✓**")
+    source_av = await m.reply("1")
+    await source_av.edit("2")
+    await source_av.edit("3")
+    await source_av.edit("4")
+    await source_av.edit("5")
+    await source_av.edit("6")
+    await source_av.edit("7")
+    await source_av.edit("8")
+    await source_av.edit("9")
+    await source_av.edit("**تم اعادة تشغيل سورس ابن الدورة ميوزك بنجاح ✓**")
     os.execl(sys.executable, sys.executable, *sys.argv)
     quit()
 
@@ -83,8 +83,8 @@ async def help(client, m: Message):
 ———————×———————
 ⧉ | لأعاده تشغيل التنصيب أرسل ⇦  [ `{HNDLR}ريستارت` ]
 ———————×———————
-المطور 💻 : @lMl10l
-القناة 🎈 : @jepthon
+المطور 💻 : @ALMORTAGEL_12
+القناة 🎈 : @source_av
 """
     await m.reply(JEPM)
 
@@ -95,12 +95,12 @@ async def repo(client, m: Message):
     JEPM = f"""
 <b>- مرحبا {m.from_user.mention}!
 
-🎶 هذا هو سورس الجوكر ميوزك
+🎶 هذا هو سورس افتار ميوزك
 
 🤖  اختصاص هذا البوت لتشغيل مقاطع صوتية او مقاطع الفيديو في المكالمات الصوتية
 
 ⚒️ لعرض اوامر السورس ارسل  {HNDLR}الاوامر
 
-📚 • قناة السورس  : @jepthon</b>
+📚 • قناة السورس  : @source_av</b>
 """
     await m.reply(JEPM, disable_web_page_preview=True)
