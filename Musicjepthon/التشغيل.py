@@ -224,7 +224,7 @@ async def play(client, m: Message):
 ⏱️ المدة : {duration}
 💬 ايدي المحادثه : {chat_id}
 🎧 طلب من : {m.from_user.mention}💻
-💻 قناة السورس : [ قناة السورس ](t.me/jepthon)**
+💻 قناة السورس : [ قناة السورس ](t.me/AlmortagelTech)**
 """,
                             )
                         except Exception as ep:
@@ -270,7 +270,7 @@ async def vplay(client, m: Message):
 **🏷️  العنوان : [{songname}]({url})
 💬 ايدي المحادثه : {chat_id}
 🎧 طلب من : {m.from_user.mention}
-💻 قناة السورس : [ قناة السورس ](t.me/jepthon)**
+💻 قناة السورس : [ قناة السورس ](t.me/AlmortagelTech)**
 """,
                 )
             else:
@@ -294,7 +294,7 @@ async def vplay(client, m: Message):
 **🏷️  العنوان : [{songname}]({url})
 💬 ايدي المحادثه : {chat_id}
 🎧 طلب من : {m.from_user.mention}
-💻 قناة السورس : [ قناة السورس ](t.me/jepthon)**
+💻 قناة السورس : [ قناة السورس ](t.me/AlmortagelTech)**
 """,
                 )
 
